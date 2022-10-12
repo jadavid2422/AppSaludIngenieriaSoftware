@@ -24,7 +24,7 @@ class MenuBarraLateral extends StatelessWidget {
     return
     ListTile(
             leading: Icon(icono),
-            title: Text(nombreOpcion,style: TextStyle(fontSize: 18),),
+            title: Text(nombreOpcion,style: const TextStyle(fontSize: 18),),
             onTap: () {
               Navigator.pop(context);
               //Navigator.restorablePushNamed(context, vista);

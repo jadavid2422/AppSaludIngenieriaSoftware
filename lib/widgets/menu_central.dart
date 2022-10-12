@@ -48,7 +48,7 @@ class MenuCentral extends StatelessWidget {
           InkWell(
             onTap: () {
               Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => const IndicadorSalud()));
+                 MaterialPageRoute(builder: (context) =>  IndicadorSalud()));
             },
             child: const _SingleCard(
                 color: Colors.black,
